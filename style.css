@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.header{
+	background-image: url(bgimg.jpg);
+	height: 700px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	
+	
+}
+
+.header h1{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0px;
+
+}
+
+.header p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding: 0px 0px 20px 0px;
+}
+.header button {
+	width: 150px;
+	height: 40px;
+	margin:auto;
+	display: block;
+	margin-top: 20px;
+}
+.header button a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+.btn{
+	background: transparent;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	transition: 1s;
+	
+	
+	
+
+}
+
+.btn:hover{
+	background: green;
+}
+
+.nav{
+	width: 100%;
+	height: 80px;
+	background: #000;
+}
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 200px;
+	height: 80px;
+}
+.menu{
+	float: right;
+	margin-right: 10px;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	display: inline-block;
+	line-height: 80px;
+}	
+
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	border:2px solid #fff;
+	border-radius: 10px 0px 10px 0px;
+	transition: 1s;
+}
+
+.menu ul li a:hover{
+	color: #000;
+	background: #fff;
+	border-radius: 0px 10px 0px 10px;
+}
+.box{
+	width: 600px;
+	height: 200px;
+	
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	padding: 20px;
+}
+
+.service{
+	height: 700px;
+	width: 100%;
+	background: skyblue;
+
+}
+
+.servicecontent{
+	width: 700px;
+	margin:auto;
+	height: 100px;
+	
+	text-align: center;
+	color: #fff;
+	padding: 30px 10px 20px 10px;
+}
+.sbox{
+	float: left;
+}
+.box1 {
+	width: 300px;
+	height: 500px;
+	background: yellow;
+	float: left;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+.box2 {
+	width: 300px;
+	height: 500px;
+	background: pink;
+	float: left;
+	margin-right: 20px;
+}
+.box3 {
+	width: 300px;
+	height: 500px;
+	background: green;
+	float: left;
+	margin-right: 20px;
+}
+.box4 {
+	width: 300px;
+	height: 500px;
+	background: red;
+	float: left;
+}
